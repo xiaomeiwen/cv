@@ -16,9 +16,8 @@ h2 {
 #mainContent {
     font-family: fantasy;
     margin-left: 0%;
-    margin-right: 8%;
+    margin-right: 0%;
     padding: 40px;
-    background-color: aqua;
     float:left;
 }
 nav {
@@ -63,7 +62,7 @@ body {
     margin-left: 2%;
     margin-right: 5%;
 	float: right;
-	background-color: #FFFFFF;
+	background-color: antiquewhite;
 }
 header {
 	text-align: center;

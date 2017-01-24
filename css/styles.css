@@ -498,3 +498,12 @@ footer {
     margin-top: 100px;
     margin-right: 100px;
 }
+
+.modal-dialog {
+    position: relative;
+    width: 600px;
+}
+.modal-body {
+    position:inherit;
+    width: 550px; 
+}
