@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Search</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="wrapper" class="container text-center animated zoomIn">
+        <div id="searcharea">
+            <h1>WikiPedia Viewer</h1>
+            <a href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5">link to wikipedia</a>
+           
+            <div class="input-group hide animated zoomIn">
+               
+                <input id="search" type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn" id="close-search">
+        <button class="btn btn-warning" type="button"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </span>
+           
+            </div>
+            <div id="search-icon" class="">
+                <h1 class="fa fa-search fa-4x" aria-hidden="true"></h1>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid text-left" id="result">
+        <div id="update">
+            <ul id="output">
+
+            </ul>
+        </div>
+    </div>
+    <script src="bootstrap.min.css"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

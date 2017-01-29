@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700);
+
+body {
+	font-family: 'PT Serif', serif;	
+	background: #0097A7;
+	color: #212121;
+	font-size: 200%;	
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+h1 {
+    color: #fff;
+}
+
+#wrapper {
+    margin: 25vh auto;
+    width: 55vw
+}
+#searcharea a {
+    color:oldlace;
+}
+
+#searcharea a:hover
+{
+    color: #fed136;
+    text-decoration: none;
+}
+.form-control {
+    outline: none;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.input-group {
+    margin: 5vh auto;
+    width: 50%;
+    min-width: 150px;
+}
+#search {
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+}
+#close-search .btn {
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+}
+
+#output li {
+    background-color: #fff;
+    list-style-type: none;
+    padding:20px;
+    margin-top: 10px;
+}
+#output li: hover {
+    background-color: coral;
+    list-style-type: none;
+    padding:20px;
+    margin-top: 10px;
+}
+.fa-search {
+    cursor:pointer;
+    color:#002F2F;
+    transition: all 1.0s;
+}
+.fa-search:hover {
+    
+    transform:rotateY(160deg);
+	-webkit-transform:rotateY(160deg);
+}
