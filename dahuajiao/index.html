@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>大花轿工作室</title>
+    <link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+
+    <div class="audio">
+        <audio src="audio/%E5%85%B3%E4%BA%8E%E5%A4%A7%E8%8A%B1%E8%BD%BF%E5%B7%A5%E4%BD%9C%E5%AE%A4%E7%9A%84%E4%BB%8B%E7%BB%8D-%E5%B0%8F%E7%88%B1.mp3" crossorigin="anonymous" controls playsinline></audio>
+        <canvas id="spectrograph" width="750" height="300">
+        </canvas>
+        <progress value="0" max="100" id="playhead"></progress>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" id="playpause" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Pause</title>
+                <polygon points="7,3 19,3 19,47 7,47" id="leftbar" />
+                <polygon points="31,3 43,3 43,26 43,47 31,47" id="rightbar" />
+                <animate to="7,3 19,3 19,47 7,47" id="lefttopause" xlink:href="#leftbar" attributeName="points" dur="0.3s" begin="indefinite" fill="freeze" />
+                <animate to="12,0 25,11.5 25,39 12,50" id="lefttoplay" xlink:href="#leftbar" attributeName="points" dur="0.3s" begin="indefinite" fill="freeze" />
+                <animate to="31,3 43,3 43,26 43,47 31,47" id="righttopause" xlink:href="#rightbar" attributeName="points" dur="0.3s" begin="indefinite" fill="freeze" />
+                <animate to="25,11.5 39.7,24.5 41.5,26 39.7,27.4 25,39" id="righttoplay" xlink:href="#rightbar" attributeName="points" dur="0.3s" begin="indefinite" fill="freeze" />
+            </svg>
+        </button>
+    </div>
+
+    <div id="fullpage">
+
+        <div class="section" id="section0">
+            <div class="content">
+                <div class="wapper">
+                    <section id="section-1">
+                        <div id="snow">
+                            <div class="mes">
+                                <h1><img src="images/%E5%A4%A7%E8%8A%B1%E8%BD%BF.png">工作室
+                                </h1>
+                                <!--
+                            <div class="container">
+                                <h1>
+                    <span><img src="images/%E5%A4%A7.png"></span>
+                    <span>♬</span>
+                    <span>花</span>
+                    <span>♪</span>
+                    <span>轿</span>
+                    </h1>
+                            </div>
+-->
+                                <!--                            <span id="button">了解更多</span>-->
+                            </div>
+                        </div>
+                    </section>
+                    <section id="section-2">
+
+                        <div class="cell">
+                            <div class="img">
+                                <img src="img/%E5%B9%BF%E6%92%AD%E5%89%A7.png" />
+                            </div>
+                            <div class="mes">
+                                <p>用声音演绎故事</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="img">
+                                <img src="img/%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4.png" />
+                            </div>
+                            <div class="mes">
+                                <p>用我们的声音诵读情感</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="img">
+                                <img src="img/%E7%BF%BB%E5%94%B1.png" />
+                            </div>
+                            <div class="mes">
+                                <p>我们还在走的更远</p>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide" id="slide1">
+                <div class="content">
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="content">
+                    <h1>Slides too!</h1>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="content">
+                    <h1>More slides!</h1>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="content">
+                <h1>Compatible</h1>
+                <p>IE 8+ support.</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/javascript.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+</html>
