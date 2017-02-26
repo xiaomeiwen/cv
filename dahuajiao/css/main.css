@@ -153,6 +153,34 @@ button svg {
 #section-1 .mes p:last-of-type{
     margin-bottom: 60px;
 }
+#section-1 .player {
+    margin-left: 65%;
+    margin-top: -60px;
+    transform-origin: 0 0;
+    animation: pendulum 3s 0s linear infinite;
+}
+#section-1 .player button {
+    top:67px;
+    margin-left:80px;
+}
+#section-1 .player img{
+    top:0;
+    width: 30vw;
+}
+
+@keyframes pendulum {
+	0%, 50%, 100% {
+		transform: rotate(0deg);
+	}
+	
+	25% {
+		transform: rotate(6deg);
+	}
+	
+	75% {
+		transform: rotate(-10deg);
+	}
+}
 /*
 #section-1 .mes #button{
     position: absolute;
